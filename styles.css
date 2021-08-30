@@ -12,3 +12,133 @@ body {
     background-size: cover;
 }
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.hero img {
+    border-radius: 20px 20px 0 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #1f2e55;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+header p {
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.annual-plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15%;
+}
+
+.annual {
+    color: #1f2e55;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.dollars {
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.change {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #382ae1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.payment-btn {
+    background-color: #382ae1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+    border-radius: 11px;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 16px 64px;
+    margin-bottom: 24px;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    border: none;
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.paminos {
+    color: tomato;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: darkgrey;
+    margin-top: 64px;
+    padding-bottom: 16px;
+}
