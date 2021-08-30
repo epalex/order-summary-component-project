@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/order-summary-component-project
+- Live Site URL: https://epalex.github.io/order-summary-component-project/
 
 ## Built with
 
@@ -13,4 +13,4 @@
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
