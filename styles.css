@@ -142,3 +142,76 @@ footer {
     margin-top: 64px;
     padding-bottom: 16px;
 }
+
+
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-size: contain;
+        background-color: #e0e8ff;
+    }
+
+    .container {
+        width: 40%;
+    }
+
+    header {
+        margin-top: 45px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    header p {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 60%;
+    }
+
+    .buttons {
+        margin-top: 32px;
+    }
+
+    .payment-btn {
+        padding: 16px 100px;
+        margin-bottom: 32px;
+    }
+
+    .annual-plan {
+        justify-content: space-evenly;
+        padding: 25px;
+    }
+
+    .annual {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .dollars {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .change {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .change:hover {
+        cursor: pointer;
+        color: #766cf1;
+        text-decoration: none;
+    }
+
+    .payment-btn:hover {
+        cursor: pointer;
+        background-color: #766cf1;
+    }
+
+    .cancel-btn {
+        cursor: pointer;
+    }
+}
